@@ -25,7 +25,7 @@ const app = express();
 
 // Enable CORS with specific origin
 const allowedOrigins = [
-    ' http://localhost:3000',
+    'https://front-end-face-swap.vercel.app',
     process.env.FRONTEND_URL || 'https://front-end-face-swap.vercel.app'
 ];
 app.use(cors({
